@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.link{
+    color: #fff;
+    background-image: linear-gradient(#ff2f97,#ff2f97);
+    background-repeat: no-repeat;
+    background-size: 100% 0%;
+    background-position-x: right;
+    transition: background-size 0.89s;
+}
+
+.link:hover{
+    background-size: 1000% 100%;
+    background-position-x: left;
+}
