@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.btn{
+    background: #1B1A17;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    box-shadow: 0 0 50px #00000051;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.toast_box{
+    position: fixed;
+    bottom: 30px;                                       /*This is to position the elements at the bottomright of the screen*/
+    right: 20px;
+    width: 300px;
+    padding: 20px 30px;
+    background: #ffffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 50px #00000020;
+    display: flex;
+    align-items: center;
+    transform: translate(110%);                             /*This is to move the elements at the right of the screen */
+    transition: all 0.4s;
+}
+
+.toast_box p{
+    padding-left: 10px;
+}
+
+.cancel_btn{
+    position: absolute;
+    top: -40%;
+    right: 0;
+    padding: 2px 15px;
+    font-size: 1.8rem;
+    background: #F0A500;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 50px #f0a4003e;
+    cursor: pointer;
+}
+
+.seconds{
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    font-size: 0.8rem;
+}
