@@ -1,0 +1,25 @@
+body{
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clip{
+    background-image: url("1.png");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    clip-path: polygon(0 0, 33% 0, 63% 100%, 0% 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+h1{
+    color: #fff;
+    right: 150px;
+    top: 250px;
+    font-size: 100px;
+    position: absolute;
+}
