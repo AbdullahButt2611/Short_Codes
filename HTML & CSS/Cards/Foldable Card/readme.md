@@ -11,6 +11,7 @@
 ## Technology Stack
 <br>
 Follwing technologies have been used at the core of this application to make it stand in the market place:
+
 - HTML
 - CSS
 <br><br>
