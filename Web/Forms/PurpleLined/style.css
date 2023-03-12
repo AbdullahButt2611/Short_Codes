@@ -20,3 +20,112 @@ body{
     background-size: 100% 25%;
     background-position: top;
 }
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 19rem auto;
+}
+
+.form-container{
+    display: flex;
+    align-items: center;
+    height: 40rem;
+    width: 33rem;
+    overflow-x: hidden;
+}
+
+form{
+    height: 35rem;
+    width: 30rem;
+    margin-left: 2rem;
+    display: grid;
+    place-items: center;
+    border: 1px solid #ccc;
+    box-shadow: 9px 9px 0px var(--color);
+    border-radius: 1rem;
+    background: #fff;
+}
+
+form i{
+    font-size: 4rem;
+    color: var(--color);
+    margin-top: -4rem;
+    background: #fff;
+    height: 6rem;
+    width: 6rem;
+    text-align: center;
+    border: 1rem solid #fff;
+    border-radius: 50%;
+}
+
+form h2{
+    font-size: 2rem;
+    color: #333;
+}
+
+form .box{
+    height: 3rem;
+    width: 80%;
+    padding: 1rem 2rem;
+    outline: none;
+    border: none;
+    background: #e6e6e6;
+    color: #333;
+    border-radius: 5rem;
+}
+
+form input[type="submit"]{
+    height: 3rem;
+    width: 6rem;
+    margin-left: -15rem;
+    background: #333;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5rem;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover{
+    background: var(--color);
+}
+
+form a{
+    font-size: 1.5rem;
+    color: #333;
+    margin-left: -11rem;
+}
+
+.container .images{
+    width: 36rem;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.container .images > img{
+    height: 32rem;
+    margin-top: 1rem;
+    margin-left: -18rem;
+}
+
+.controls{
+    position: absolute;
+    top: 1rem;
+    right: 21%;
+    height: 6rem;
+    width: 15rem;
+    overflow: hidden;
+}
+
+.controls h1{
+    color: #fff;
+    border: 0.2rem solid #fff;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    cursor: pointer;
+    text-align: center;
+}
